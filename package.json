@@ -1,0 +1,51 @@
+{
+  "name": "is-same-angle",
+  "version": "1.0.0",
+  "description": "check if two angles are in same direction",
+  "license": "MIT",
+  "repository": "anoff/is-same-angle",
+  "author": {
+    "name": "anoff",
+    "email": "offenhaeuser@gmail.com",
+    "url": "http://anoff.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && nyc ava",
+    "test:watch": "ava --watch",
+    "test:coverage": "nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "geometry",
+    "angle",
+    "same",
+    "calculation"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.1",
+    "cz-conventional-kawaii": "^1.0.0",
+    "nyc": "^11.0.0",
+    "standard": "^11.0.1"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-kawaii"
+    },
+    "cz-conventional-kawaii": {
+      "quick": true
+    }
+  }
+}
