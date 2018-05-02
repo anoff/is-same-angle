@@ -1,3 +1,4 @@
+'use strict'
 module.exports = (val1, val2, opts) => {
   opts = opts || {}
   let tolerance = typeof opts.tolerance === 'number' ? Math.abs(opts.tolerance) : 0.1
