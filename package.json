@@ -31,7 +31,7 @@
     "ava": "^2.0.0",
     "coveralls": "^3.0.1",
     "cz-conventional-kawaii": "^1.0.0",
-    "nyc": "^14.0.0",
+    "nyc": "^15.0.0",
     "standard": "^14.0.0"
   },
   "nyc": {
